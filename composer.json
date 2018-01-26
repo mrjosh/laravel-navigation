@@ -2,6 +2,7 @@
   "name": "josh/laravel-navigation",
   "description": "Laravel navigation manager",
   "type": "package",
+  "license": "MIT",
   "authors": [
     {
       "name": "Alireza Josheghani",
