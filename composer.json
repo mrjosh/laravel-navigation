@@ -1,0 +1,20 @@
+{
+  "name": "josh/laravel-navigation",
+  "description": "Laravel navigation manager",
+  "type": "package",
+  "authors": [
+    {
+      "name": "Alireza Josheghani",
+      "email": "josheghani.dev@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0",
+    "laravel/framework": "5.5.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Josh\\Components\\Navigation\\": "src/"
+    }
+  }
+}
