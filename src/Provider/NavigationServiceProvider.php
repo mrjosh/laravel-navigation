@@ -20,7 +20,10 @@ class NavigationServiceProvider extends BaseServiceProvider
             return $navigation;
         });
 
-        $this->map(base_path('routes/navigation.php'));
+        if(file_exists($file = base_path('routes/navigation.php'))){
+            
+            $this->map($file);
+        }
     }
 
     /**
